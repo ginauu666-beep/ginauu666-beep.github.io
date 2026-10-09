@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Social Media Dashboard is a locally run tool for reviewing authorized social media account data.">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html" aria-label="Social Media Dashboard home"><span class="brand-mark">S</span><span>Social Media Dashboard</span></a>
+        <nav aria-label="Main navigation">
+          <a aria-current="page" href="index.html">Overview</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <section class="intro">
+        <p class="eyebrow">Locally run account dashboard</p>
+        <h1>Social Media Dashboard</h1>
+        <p class="lead">A desktop dashboard for reviewing data from social media accounts that you connect. It brings account metrics, video performance, and available interaction records into one workspace.</p>
+        <p class="lead zh" lang="zh-CN">社媒数据看板在用户电脑上运行，用于汇总已授权账号的数据、作品表现和可获取的互动记录。</p>
+      </section>
+      <section class="content-section">
+        <h2>How account connections work</h2>
+        <p>You choose which accounts to connect through each platform's authorization flow. The dashboard requests only the permissions shown on that platform's consent screen. Features that need additional permissions remain unavailable until you separately authorize them.</p>
+        <p>Platform credentials and collected dashboard data are stored on the computer running the application. The application communicates with platform APIs to retrieve authorized data and, when you explicitly initiate an available action, to submit it.</p>
+      </section>
+      <section class="content-section">
+        <h2>Current integrations</h2>
+        <ul class="platform-list">
+          <li><strong>YouTube</strong><span>Channel and video data, analytics, and user-initiated comment publishing after the required permission is granted.</span></li>
+          <li><strong>TikTok</strong><span>Sandbox Login Kit and authorized profile and public video data. Comment, like, and direct-message publishing are not available in this integration.</span></li>
+        </ul>
+        <p>Other platforms may be supported through separate account connections. Available data depends on each platform's permissions and interfaces.</p>
+      </section>
+      <section class="content-section last-section">
+        <h2>Policies and contact</h2>
+        <p>Read the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a> before connecting an account. For questions about this project, use the <a href="https://github.com/loverelic0-wq/media-monitor-dashboard/issues">project's GitHub issues page</a>. Do not post passwords, tokens, or private account data in a public issue.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="wrap">Social Media Dashboard <span>Last updated October 9, 2026</span></div></footer>
+  </body>
+</html>
